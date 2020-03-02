@@ -13,9 +13,9 @@ Nous devons créer un site de vente en ligne arborant les fonctionnalités suiva
 4. Une page "A Propos"
 5. Une barre de recherche
 
-⋅⋅⋅Le site est statique (HTML et CSS) et tout est donc simulé (la recherche mène à la page catalogue, il n'y a qu'une page article, etc..).
+   Le site est statique (HTML et CSS) et tout est donc simulé (la recherche mène à la page catalogue, il n'y a qu'une page article, etc..).
 
-⋅⋅⋅Le site doit également être responsive.
+   Le site doit également être responsive.
 
 ## Webmestres
 
