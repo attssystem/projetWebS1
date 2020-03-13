@@ -77,6 +77,15 @@ footer{
 #main #buy:hover{
   background-color: #707c8b;
 }
+#main #search {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#main .search_results {
+  width: 180px;
+  height: 230px;
+}
 #sale{
   display: inline;
   text-align: center;
