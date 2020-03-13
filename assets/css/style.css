@@ -24,11 +24,7 @@ header{
   vertical-align: middle;
   margin-right: 5px;
 }
-.nav_buttons li{
-  background-color: #a1b2c7;
-  border-radius: 5px;
-}
-.nav_buttons li:hover{
+li:hover{
   background-color: #707c8b;
 }
 a{
@@ -44,8 +40,10 @@ nav ul{
 li{
   display: inline;
   padding: 5pt;
+  background-color: #a1b2c7;
+  border-radius: 5px;
 }
-form {
+form{
   display: inline; /* Pour aligner le champ de recherche avec les liens*/
 }
 footer{
@@ -58,16 +56,21 @@ footer{
   display: flex;
   justify-content: space-between; /*Pour que ça prenne bien toute la largeur du body*/
   margin-top: 60px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 #main{
   display: inline;
   padding: 10px;
+  width: 80%;
   text-align: justify;
+}
+#main h1, #main h2{
+  margin: 10px;
 }
 #main #buy{
   background-color: #a1b2c7;
+  display: block;
   text-align: center;
   border-radius: 5px;
   margin: 10px;
@@ -77,17 +80,37 @@ footer{
 #main #buy:hover{
   background-color: #707c8b;
 }
-#main #search {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+#main #user_search{
+	display: flex;
+	flex-wrap: wrap;
 }
-#main .search_results {
-  width: 180px;
-  height: 230px;
+#main .search_results{
+  border: 1px solid black;
+  margin: 5px;
+  width: 280px;
+  height: 330px;
+}
+.search_results{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search_results img{
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid grey;
+}
+.search_results p:nth-child(3){
+  align-self: stretch;
+}
+.desc{
+  font-size: 11px; 
+  margin: 5px;
+}
+.price{
+  margin-top: 10px;
 }
 #sale{
-  display: inline;
   text-align: center;
   background-color: #7498a7;
   width: 20%;
