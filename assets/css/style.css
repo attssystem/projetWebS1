@@ -139,32 +139,7 @@ footer{
   margin: 20px;
 }
 
-@media screen and (max-width:800px) {
-  h2 {
-    font-size: 15px;
-  }
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-  nav ul{
-    display: flex;
-    flex-direction: column;
-  }
-  #global {
-    display: flex;
-    flex-direction: column;
-  }
-  #main {
-    display: block;
-    margin: auto;
-    width: auto;
-  }
-  #sale {
-    width:auto;
-  }
-}
-@media handheld {
+@media all and (max-width:800px) {
   h2 {
     font-size: 15px;
   }
