@@ -140,6 +140,9 @@ footer{
 }
 
 @media all and (max-width:800px) {
+  h1 {
+    margin-bottom: 10px;
+  }
   h2 {
     font-size: 15px;
   }
@@ -147,9 +150,20 @@ footer{
     display: flex;
     flex-direction: column;
   }
-  nav ul{
+  nav ul {
     display: flex;
     flex-direction: column;
+  }
+  li {
+    border-radius: 0;
+  }
+  li:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  li:nth-child(4) {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   #global {
     display: flex;
@@ -162,5 +176,17 @@ footer{
   }
   #sale {
     width:auto;
+    margin-bottom: 15px;
+  }
+  #sale hr {
+    margin: 10px;
+  }
+  #sale h3 {
+    font-size: 15px;
+    padding: auto;
+  }
+  #inner_sale{
+    display: flex;
+    flex-direction: row;
   }
 }
