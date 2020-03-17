@@ -139,7 +139,7 @@ footer{
   margin: 20px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:800px), handheld {
   h2 {
     font-size: 15px;
   }
