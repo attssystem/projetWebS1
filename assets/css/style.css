@@ -23,6 +23,9 @@ header{
   vertical-align: middle;
   margin-right: 5px;
 }
+#order{
+  width: 15px;
+}
 li:hover{
   background-color: #707c8b;
 }
@@ -145,6 +148,9 @@ footer{
   }
   h2 {
     font-size: 15px;
+  }
+  h3 {
+    font-size: 14.5px;
   }
   p {
     font-size: 14px;

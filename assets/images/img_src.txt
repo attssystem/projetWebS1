@@ -11,3 +11,4 @@ _fotomelia.png : Fotomelia - Flaticon
 _roundicons.png : RoundIcons - Flaticon
 _vectorsmarket.png : VectorsMarket - Flaticon
 _vitalyGorbatchev.png : Vitaly Gorbatchev - Flaticon
+_thoseicons.png : Those Icons - Flaticon

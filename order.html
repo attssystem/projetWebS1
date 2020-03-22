@@ -29,13 +29,28 @@
     </header>
     <div id="global">
       <article id="main">
-        <h2>Qui sommes-nous ?</h2>
-        <p>Jeunes hackeurs, nous avons décidé de mettre notre incomensurable talent au service du capitalisme en entrant dans la magnifique industrie de la vente en ligne. Pour cela nous avons contracté des crédits à des taux relativement élevés #38.5%C'estBeaucoup. J'espère donc que le succès sera au rendez-vous. Sachez par ailleurs que nous venons de récupérer votre adresse IP : 192.168.0.1 et vous nous devez dorénavant 1 SMIC en Bitcoin. De plus, parce que nous sommes gentils, il y a une chance sur deux que vos "dons" aident à lutter contre le CoVid-19, sinon on s'achètera une PS4.<br><br>Bisous</p>
+        <h2>Votre commande :</h2>
+        <h3>Vos articles</h3>
+        ...ezfzefzefzef...
+        <h3>Vos coordonnées</h3>
+        <form id="delivery" method="post" action="order.html">
+            <input type="text" name="name" placeholder="Nom Complet"/><br>
+            <input type="text" name="address" placeholder="Adresse"/><br>
+            <input type="text" name="zip" placeholder="Code Postal"/><br>
+            <input type="text" name="city" placeholder="Ville"/><br>
+            <p>Mode de livraison :</p>
+            <input type="radio" name="delM" value="express" checked><label for="express">Express (2j)</label>
+            <input type="radio" name="delM" value="normal" checked><label for="normal">Normal (3-5j)</label><br>
+            <p>Mode de paiement:</p>
+            <input type="radio" name="pay" value="CB" checked><label for="CB">CB</label>
+            <input type="radio" name="pay" value="PayPal" checked><label for="PayPal">PayPal</label><br>
+            <input id="buy" type="button" value="Commander"/>
+        </form>
       </article>
       <article id="sale">
         <br>
         <h3>PROMOTIONS <img style="width: 15px;" src="assets/images/roundicons.png" alt="arrow"></h3>
-          <div id="inner_sale">
+        <div id="inner_sale">
           <a href="article.html">
             <div class="container">
               <br>

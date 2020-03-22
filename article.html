@@ -16,6 +16,7 @@
             <li><a href="index.html">Acceuil</a></li>
             <li><a href="catalogue.html">Catalogue</a></li>
             <li><a href="about.html">Qui sommes-nous ?</a></li>
+            <li><a href="order.html"><img id="order" src="assets/images/thoseicons.png" alt="Order"> <u>(1)</u></a></li>
             <li>
               <form id="search" method="post" action="catalogue.html">
                   <input type="search" name="search" placeholder="Rechercher..."/>
@@ -33,7 +34,22 @@
         <div id="art_container"><img id="art_photo" src="assets/images/fotomelia.jpg" alt="pug"></div>
         <p>Le bon vieux PUG à su mettre l'ambiance dans notre première boutique depuis sa naissance le 15/13/1941. Néanmoins, la récente et exponentielle croissance de notre entreprise nous force à déménager dans des locaux plus grands mais bien moins accueillants pour Kiki le PUG. De ce fait, nous nous en séparons. Par respect envers lui, et même si nous le vendons sur internet, nous ne souhaitons pas afficher des prix car sa valeur est purement sentimentale. C'est donc à vous de venir en boutique pour que nous négocions et que nous trouvions la meilleure famille pour lui.</p>
         <br>
-        <a id="buy">Prix à négocier sur place - Réserver</a>
+        <a href="order.html" id="buy">Prix à négocier sur place - Ajouter au panier</a>
+        <hr>
+        <h3>Commentaires</h3><br>
+        <h4>Vincent - 15/08/1978</h4>
+        <p>Excellent achat ! Vous ne serez pas déçu</p><br>
+        <h4>Hugues - 45/08/1978</h4>
+        <p>J'ai déjà eu mieux...</p><br>
+        <h4>Postez votre commentaire :</h4>
+        <form method="post" action="article.html">
+            <input type="text" name="name" placeholder="Pseudonyme"/><br>
+            <textarea name="comment"
+              rows="5" cols="33">
+              Votre commentaire...
+            </textarea><br>
+            <input id="buy" type="button" value="Poster"/>
+        </form>
       </article>
       <article id="sale">
         <br>

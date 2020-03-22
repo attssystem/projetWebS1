@@ -11,13 +11,18 @@ Nous devons créer un site de vente en ligne arborant les fonctionnalités suiva
 2. Une page d'article
 3. Une page catalogue
 4. Une page "A Propos"
-5. Une barre de recherche
+5. Une page "Commande"
+6. Une barre de recherche
 
    Le site est statique (HTML et CSS) et tout est donc simulé (la recherche mène à la page catalogue, il n'y a qu'une page article, etc..).
 
    Le site doit également être responsive.
 
+## Lien public
+
+Le site est accessible via : https://attssystem.github.io/projetWebS1/index.html
+
 ## Webmestres
 
-- Vincent DUVIVIER - @Wiesterfeler
+- Vincent DUVIVIER - @VincentDuvivier - anciennement @Wiesterfeler
 - Hugues KADI - @attssystem
