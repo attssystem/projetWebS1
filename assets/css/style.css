@@ -142,7 +142,7 @@ footer{
   margin: 20px;
 }
 
-@media all and (max-width:800px) {
+@media all and (max-width:925px) {
   h1 {
     margin-bottom: 10px;
   }
