@@ -82,6 +82,7 @@ header form {
   margin: 10%;
   margin-top: 5%;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
 }
