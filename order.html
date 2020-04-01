@@ -31,19 +31,24 @@
       <article id="main">
         <h2>Votre commande :</h2>
         <h3>Vos articles</h3>
-        ...ezfzefzefzef...
-        <h3>Vos coordonnées</h3>
-        <form id="delivery" method="post" action="order.html">
+        <ul>
+          <li>Une piscine
+          <li>Un p
+        </ul>
+        <p>Pour un total de <u>8999.585€</u></p>
+
+        <form id="comment_sale" method="post" action="order.html">
+            <h3>Vos coordonnées</h3><br>
             <input type="text" name="name" placeholder="Nom Complet"/><br>
             <input type="text" name="address" placeholder="Adresse"/><br>
             <input type="text" name="zip" placeholder="Code Postal"/><br>
             <input type="text" name="city" placeholder="Ville"/><br>
             <p>Mode de livraison :</p>
-            <input type="radio" name="delM" value="express" checked><label for="express">Express (2j)</label>
-            <input type="radio" name="delM" value="normal" checked><label for="normal">Normal (3-5j)</label><br>
+            <input type="radio" name="delM" value="express" checked><label>Express (2j)</label>
+            <input type="radio" name="delM" value="normal" checked><label>Normal (3-5j)</label><br>
             <p>Mode de paiement:</p>
-            <input type="radio" name="pay" value="CB" checked><label for="CB">CB</label>
-            <input type="radio" name="pay" value="PayPal" checked><label for="PayPal">PayPal</label><br>
+            <input type="radio" name="pay" value="CB" checked><label>CB</label>
+            <input type="radio" name="pay" value="PayPal" checked><label>PayPal</label><br>
             <input id="buy" type="button" value="Commander"/>
         </form>
       </article>

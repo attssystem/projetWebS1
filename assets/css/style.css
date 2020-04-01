@@ -1,12 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat';
 }
-body{
+body {
   background-color: #8cc6e0;
 }
-header{
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
   z-index: 1000;
   background-color: #6ca1c9;
   display: flex;
@@ -14,64 +18,42 @@ header{
   top: 0;
   width: auto;
   height: auto;
-  /*box-shadow: 0px 0px 10px black;*/
   padding: 10px;
   align-items: center;
 }
-#icon{
-  width: 40px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-#order{
-  width: 15px;
-}
-li:hover{
+header li:hover {
   background-color: #707c8b;
 }
-a{
-  text-decoration: none;
-  color: black;
-}
-#search{
-  margin-right: 15px;
-}
-nav ul{
+header nav ul {
   list-style-type: none; /*C'est pour enlever les puces */
 }
-li{
+header li {
   display: inline;
   text-align: center;
   padding: 5pt;
   background-color: #a1b2c7;
   border-radius: 5px;
 }
-form{
+header form {
   display: inline; /* Pour aligner le champ de recherche avec les liens*/
 }
-footer{
-  background-color: #a1b2c7;
-  text-align: center;
-  bottom: 0;
-  padding: 5px;
-}
-#global{
+#global {
   display: flex;
   justify-content: space-between; /*Pour que ça prenne bien toute la largeur du body*/
   margin-top: 0px;
   margin-left: 5%;
   margin-right: 5%;
 }
-#main{
+#main {
   display: inline;
   padding: 10px;
   width: 80%;
   text-align: justify;
 }
-#main h1, #main h2{
+#main h1, #main h2 {
   margin: 10px;
 }
-#main #buy{
+#main .buy {
   background-color: #a1b2c7;
   display: block;
   text-align: center;
@@ -80,66 +62,93 @@ footer{
   padding: 10px;
   width: auto;
 }
-#main #buy:hover{
+#main .buy:hover {
   background-color: #707c8b;
 }
-#main #user_search{
+#main #user_search {
 	display: flex;
 	flex-wrap: wrap;
 }
-#main .search_results{
+#main .search_results {
   border: 1px solid black;
   margin: 5px;
   width: 280px;
   height: 330px;
 }
-.search_results{
+#comment_sale {
+  background-color: #a1b2c7;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 10%;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
-.search_results img{
-  width: 100%;
-  height: 50%;
-  border-bottom: 1px solid grey;
-}
-.search_results p:nth-child(3){
-  align-self: stretch;
-}
-.desc{
-  font-size: 11px;
-  margin: 5px;
-}
-.price{
-  margin-top: 10px;
-}
-#sale{
+#sale {
   text-align: center;
   background-color: #7498a7;
   width: 20%;
   height: inherit;
   padding-left: 2px;
   padding-right: 2px;
-  /*border-left: solid 1px black;*/
 }
-.art{
+#icon {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#order {
+  width: 15px;
+}
+#search {
+  margin-right: 15px;
+}
+#art_photo {
   width: 60%;
 }
-.container{
+#art_container {
+  text-align: center;
+  margin: 20px;
+}
+.search_results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search_results img {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid grey;
+}
+.search_results p:nth-child(3) {
+  align-self: stretch;
+}
+.desc {
+  font-size: 11px;
+  margin: 5px;
+}
+.price {
+  margin-top: 10px;
+}
+
+.art {
+  width: 60%;
+}
+.container {
   position: relative;
 }
-.sale_icon{
+.sale_icon {
   position: absolute;
   top: 40%;
   left: 60%;
   width: 20%;
 }
-#art_photo{
-  width: 60%;
-}
-#art_container{
+footer {
+  background-color: #a1b2c7;
   text-align: center;
-  margin: 20px;
+  bottom: 0;
+  padding: 5px;
 }
 
 @media all and (max-width:925px) {
@@ -159,18 +168,18 @@ footer{
     display: flex;
     flex-direction: column;
   }
-  nav ul {
+  header nav ul {
     display: flex;
     flex-direction: column;
   }
-  li {
+  header li {
     border-radius: 0;
   }
-  li:nth-child(1) {
+  header li:nth-child(1) {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
-  li:nth-child(5) {
+  header li:nth-child(5) {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
@@ -193,7 +202,7 @@ footer{
   #sale h3 {
     font-size: 15px;
   }
-  #inner_sale{
+  #inner_sale {
     display: flex;
     flex-direction: row;
   }
