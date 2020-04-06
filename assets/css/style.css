@@ -86,6 +86,10 @@ header form {
   flex-direction: column;
   justify-content: center;
 }
+#comment_sale input {
+  padding: 1%;
+  margin: 1%;
+}
 #sale {
   text-align: center;
   background-color: #7498a7;
@@ -191,7 +195,7 @@ footer {
   #main {
     display: block;
     margin: auto;
-    width: auto;
+    width: 100%;
   }
   #sale {
     width:auto;
