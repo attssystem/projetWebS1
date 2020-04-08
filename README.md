@@ -22,6 +22,8 @@ Nous devons créer un site de vente en ligne arborant les fonctionnalités suiva
 
 Le site est accessible via : https://attssystem.github.io/projetWebS1/index.html
 
+Le GitHub est accessible via : https://github.com/attssystem/projetWebS1/
+
 ## Webmestres
 
 - Vincent DUVIVIER - @VincentDuvivier - anciennement @Wiesterfeler
