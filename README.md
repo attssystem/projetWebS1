@@ -21,6 +21,7 @@ Nous devons créer un site de vente en ligne arborant les fonctionnalités suiva
 ## Lien public
 
 Le site est accessible via : https://attssystem.github.io/projetWebS1/index.html
+Le GitHub est accessible via : https://github.com/attssystem/projetWebS1/
 
 Le GitHub est accessible via : https://github.com/attssystem/projetWebS1/
 
